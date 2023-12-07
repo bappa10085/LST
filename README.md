@@ -9,5 +9,6 @@ library(devtools)
 install_github("bappa10085/LST")
 ````
 You can also install the package from [CRAN](https://cran.r-project.org/web/packages/LST/index.html)
-
+```
 install.packages("LST")
+```
