@@ -1,6 +1,6 @@
 Package: LST
 Title: Land Surface Temperature Retrieval for Landsat 8
-Version: 1.1.0
+Version: 2.0.0
 Authors@R: 
     c(person(given = "Bappa",
            family = "Das",
@@ -9,7 +9,6 @@ Authors@R:
            comment = c(ORCID = "0000-0003-1286-1492")),
     person("Debasish", "Roy", email = "roydeba93@gmail.com", role = c("aut", "ctb")),
     person("Debashis", "Chakraborty", email = "debashisiari@gmail.com", role = c("aut", "ctb")),
-    person("Bimal", "Bhattacharya", email = "bimal.vegetation@gmail.com", role = c("aut", "ctb")),
     person("Pooja", "Rathore", email = "poojarathore99@gmail.com", role = c("aut", "ctb")))
 Description: Calculates Land Surface Temperature from Landsat band 10 and 11.
   Revision of the Single-Channel Algorithm for Land Surface Temperature Retrieval From Landsat Thermal-Infrared Data. Jimenez-Munoz JC, Cristobal J, Sobrino JA, et al (2009). <doi: 10.1109/TGRS.2008.2007125>.
@@ -20,8 +19,8 @@ Description: Calculates Land Surface Temperature from Landsat band 10 and 11.
   Land Surface Temperature Retrieval from Landsat 8 TIRS—Comparison between Radiative Transfer Equation-Based Method, Split Window Algorithm and Single Channel Method. Yu X, Guo X, Wu Z (2014). <doi:10.3390/rs6109829>.
   Calibration and Validation of land surface temperature for Landsat8-TIRS sensor. Land product validation and evolution. Skoković D, Sobrino JA, Jimenez-Munoz JC, Soria G, Julien Y, Mattar C, Cristóbal J. (2014).
 Depends: R (>= 3.5.0)
-Imports: raster
+Imports: terra
 License: AGPL-3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.2
